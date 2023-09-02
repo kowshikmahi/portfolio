@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    text-align: center;
+    background: rgb(93, 7, 251);
+    background: linear-gradient(133deg, rgba(104, 23, 255, 0.847) 0%, rgba(197, 61, 255, 0.724) 50%, rgba(70, 224, 255, 1) 100%);
+}
+
+.main {
+    border-radius: 20px;
+    width: 450px;
+    margin: 20px auto;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.868);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.18);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    margin: 0px 10px 10px 25px;
+    color: #c3223a;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 700;
+    /* text-decoration: underline; */
+}
+
+h2 {
+    margin: 25px 10px 15px 25px;
+    text-transform: capitalize;
+}
+
+p {
+    margin: 10px 10px 10px 25px;
+    font-size: 18px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    margin: 25px 25px 0;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 50%;
+}
+
+a {
+    margin: 10px 10px 10px;
+    text-decoration: none;
+}
+
+.snsclg {
+    margin: 0;
+}
+
+.profile {
+    margin: 0;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background-color: #c3223a;
+    padding: 10px;
+    color: #fff;
+    border-radius: 8px;
+    /* border: 1.5px solid black */
+}
+
+.btn:hover {
+    background-color: #9f172b;
+}
+
+ul,
+ol {
+    width: 200px;
+    margin: 10px 10px 10px 25px;
+    font-size: 18px;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+}
