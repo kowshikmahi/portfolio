@@ -1,0 +1,30 @@
+body{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 100px 200px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(168, 245, 251);
+}
+.main{
+  color: rgb(245, 244, 243);
+  /* text-align: center;
+  display: flex;
+  justify-content: center; */
+  border-radius: 20px;
+  width: 350px;
+  height: auto; 
+    margin: 20px auto;
+    padding: 25px;
+    background: rgba(5, 66, 78, 0.868);
+    box-shadow: 0 10px 32px 0 rgba(1, 6, 7, 0.37);
+    backdrop-filter: blur(10px);
+   /*  -webkit-backdrop-filter: blur(8px); */
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.18);
+}
+button{
+  border-radius: 10px;
+  border-style: none;
+  
+}

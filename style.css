@@ -10,7 +10,7 @@ body {
     width: 100%;
     text-align: center;
     background: rgb(93, 7, 251);
-    background: linear-gradient(133deg, rgba(104, 23, 255, 0.847) 0%, rgba(197, 61, 255, 0.724) 50%, rgba(70, 224, 255, 1) 100%);
+    background: linear-gradient(133deg, rgba(111, 45, 234, 0.847) 0%, rgba(197, 61, 255, 0.724) 50%, rgba(70, 224, 255, 1) 100%);
 }
 
 .main {
@@ -36,17 +36,20 @@ h6 {
 }
 
 h1 {
-    margin: 0px 10px 10px 25px;
-    color: #c3223a;
+    margin: 0px 10px 0px 25px;
+    color: #700313;
     text-transform: capitalize;
     font-style: normal;
     font-weight: 700;
+    font-size: 25px;
+
     /* text-decoration: underline; */
 }
 
 h2 {
     margin: 25px 10px 15px 25px;
     text-transform: capitalize;
+    color: #700313;
 }
 
 p {
@@ -82,13 +85,20 @@ a {
     justify-content: center;
 }
 
+/* .mode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    font-size: 100px;
+   } */
 .btn {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 25px;
     height: 25px;
-    background-color: #c3223a;
+    background-color: #700313;
     padding: 10px;
     color: #fff;
     border-radius: 8px;
